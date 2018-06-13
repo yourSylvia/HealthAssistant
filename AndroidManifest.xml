@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sylviameow.exercisealarm">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <!-- activity android:name=".ExerciseAlarm" / -->
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="HealthCare"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.AlarmSetUp"
+            android:label="锻炼设置" />
+        <activity
+            android:name=".Activity.RingingActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Activity.Login.ContactUs"
+            android:label="关于我们" />
+        <activity
+            android:name=".Activity.PlayerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <!-- activity android:name=".TabFragment" / -->
+        <activity android:name=".Activity.Reports.ReportExercise" />
+        <activity android:name=".Activity.Reports.ReportStars" />
+        <activity android:name=".Activity.Reports.ReportDays" />
+        <activity android:name=".Activity.Reports.ReportScores" />
+        <activity android:name=".Activity.Login.ChangePSWActivity" />
+        <activity android:name=".Activity.HelpActivity" />
+        <activity android:name=".Activity.AboutUsActivity" />
+        <activity android:name=".Activity.Forum.ConsultActivity" />
+        <activity android:name=".Activity.SettingActivity" />
+        <activity android:name=".Activity.Reports.HurtSelfReportActivity" />
+        <activity android:name=".Activity.ExplainationActivity" />
+        <activity android:name=".Activity.Forum.MyQuestionActivity" />
+        <activity android:name=".Activity.Forum.NormalQuestionActivity" />
+        <activity android:name=".Activity.Forum.MyQuesDetailsActivity" />
+        <activity android:name=".Activity.Forum.AddReplyActivity" />
+        <activity android:name=".Activity.TimerActivity" />
+        <activity android:name=".Activity.RingSelectionActivity" />
+        <activity android:name=".Activity.Login.EnterPhoneNumActivity" />
+        <activity android:name=".Activity.Login.VerificationActivity" />
+        <activity android:name=".Activity.Login.FillInfoActivity" />
+        <activity android:name=".Activity.RecorderActivity" />
+        <activity android:name=".Activity.VideoChooseActivity"></activity>
+    </application>
+
+</manifest>

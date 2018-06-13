@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray">#696969</color>
+
+    <!-- colors related to MyState -->
+    <color name="orange">#E6E8B159</color>
+    <color name="Cyan">#E675D4A7</color>
+    <color name="SeaGreen">#E65A97F3</color>>
+    <color name="Coral">#E6EF917A</color>
+
+    <color name="Red">#E6E8373F</color>
+    <color name="LightBlue">#E661BBED</color>
+
+    <color name="CornflowerBlue">#A64083DD</color>
+
+    <!-- colors related to Timer -->
+    <color name="LightRed">#F66A4B</color>
+    <color name="LightAlphaRed">#99F66A4B</color>
+
+    <color name="olive">#6B8E23</color>
+    <color name="lightGreen">#96D131</color>
+
+</resources>

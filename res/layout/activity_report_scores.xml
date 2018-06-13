@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/avg_hurt_level"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView android:id="@+id/avg_score_txt"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:textColor="#696969"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/scores"
+            android:textSize="20sp"/>
+
+        <ImageView android:id="@+id/avg_hurt_img"
+            android:layout_height="55dp"
+            android:layout_width="55dp"
+            android:layout_marginStart="30dp"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/daily_hurt_level"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView android:id="@+id/current_score_txt"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:textColor="#696969"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/scores"
+            android:textSize="20sp"/>
+
+        <ImageView android:id="@+id/current_hurt_img"
+            android:layout_height="55dp"
+            android:layout_width="55dp"
+            android:layout_marginStart="30dp"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="#aa000000" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="#FFFFFF">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_one"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/today"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="#aa000000" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_two"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/seven_days"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="#aa000000" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_three"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/month"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="#aa000000" />-->
+    <!--</LinearLayout>-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:persistentDrawingCache="animation"/>-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@android:color/black"
+        app:tabIndicatorHeight="1dp"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@color/colorPrimary"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">ExerciseAlarm</string>
+    <string name="title_activity_login">登錄</string>
+
+
+    <!-- Strings related to login-->
+    <string name="username_hint">用戶名</string>
+    <string name="psw_hint">密碼</string>
+    <string name="sign_in">登入</string>
+    <string name="retrieve_psw">忘記用戶名或密碼</string>
+    <string name="register">註冊</string>
+    <string name="phone">請輸入您的手機號</string>
+    <string name="next">下一步</string>
+    <string name="verify_code">請輸入驗證碼</string>
+    <string name="phone_num">手機號碼</string>
+    <string name="set_psw">設置密碼</string>
+    <string name="confirm_p">確認密碼</string>
+    <string name="set_username_hint"><font size="12"> 請設置用戶名 </font></string>
+    <string name="set_psw_hint"><font size="12"> 請設置密碼\n6-16位數字、字母、符號 </font></string>
+    <string name="confirm_psw_hint"><font size="12"> 請再次輸入密碼以確認 </font></string>
+
+    <!-- Strings related to ContactUs-->
+    <string name="contact_us">
+        聯繫我們，找回密碼\n
+        phone No. 1122-3344 \n
+        email imse@hku.hk
+    </string>
+    <string name="exit">Exit</string>
+
+
+    <!-- Strings related to MyState-->
+    <string name="exercise">累積鍛鍊</string>
+    <string name="star">累積星星</string>
+    <string name="day">累積天數</string>
+    <string name="score">疼痛等級</string>
+
+    <string name="self_report">痛感自評</string>
+    <string name="counter">鍛鍊計時</string>
+
+    <string name="no_result">暫無數據</string>
+
+
+    <!-- Strings related to timer -->
+    <string name="sign">:</string>
+
+    <!-- Strings related to report -->
+    <string name="today">當日</string>
+    <string name="seven_days">7日</string>
+    <string name="month">一個月</string>
+
+    <string name="counted_time">總共鍛鍊</string>
+    <string name="minutes">分鐘</string>
+    <string name="counted_star">總共獲得</string>
+    <string name="stars">星</string>
+    <string name="rank">↑本週排名</string>
+    <string name="total">/150</string>
+    <string name="days">天</string>
+    <string name="counted_scores">綜合得分</string>
+    <string name="scores">級</string>
+    <string name="avg_hurt_level">平均疼痛等級</string>
+    <string name="daily_hurt_level">今日疼痛等級</string>
+    <string name="modify_level">修改</string>
+
+    <string name="self_report_content">
+        這是打分規則說明 \n\n\n\n\n\n\n
+        請在以下空格輸入您的自我評分 \n\n
+    </string>
+    <string name="self_report_hint"><font size="15"> 輸入一個0-10的數字 </font>></string>
+
+
+    <!-- Strings related to ExerciseAlarm -->
+    <string name="alarm_list">提醒列表</string>
+
+
+    <!-- Strings related to AlarmSetUp-->
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="image_choosing">圖片</string>
+    <string name="sound_choosing">鈴聲</string>
+    <string name="save">保存</string>
+    <string name="back">返回</string>
+
+    <!-- Strings related to RingSelection  -->
+    <string name="recording">錄製鈴聲</string>
+    <string name="local">本地音樂</string>
+
+    <!-- Strings related to Videos -->
+    <string name="video">運動</string>
+    <string name="explain">動作說明</string>
+    <string name="play">影片示範</string>
+
+
+    <!-- Strings related to Forum -->
+    <string name="my_ques">我的問題</string>
+    <string name="norm_ques">常見問題</string>
+    <string name="ask_ques">我要提問</string>
+    <string name="title">输入標題</string>
+    <string name="input">输入内容</string>
+    <string name="ques_content">問題詳述</string>
+    <string name="expert_reply">專家回復</string>
+    <string name="reply">評論</string>
+    <string name="add_reply">添加評論</string>
+
+
+    <!-- Strings related to setting -->
+    <string name="setting">設置</string>
+    <string name="change">修改密碼</string>
+    <string name="help">查看幫助</string>
+    <string name="aboutus">關於我們</string>
+    <string name="logout">登出這個帳戶</string>
+    <string name="origin_psw">輸入原密碼： </string>
+    <string name="new_psw">輸入新密碼： </string>
+    <string name="confirm_psw">確認新密碼： </string>
+    <string name="submit">提交</string>
+
+    <string name="help_content">
+        歡迎使用 程式 \n\n
+
+        您可以自由使用設置鍛鍊提醒, 並觀看教學視頻進行康復鍛鍊。\n\n
+
+        通過"我的狀態"，您可以隨時查看近期鍛鍊情況。 \n\n
+
+        您也可以在討論區提出疑問，與專家及其他用戶進行交流。
+    </string>
+
+    <string name="about_us">
+        該應用程式由香港大學工業及製造系統工程系人因工程實驗室開發並提供技術支持。\n\n
+
+        如有需要，請與柯教授取得聯繫 \n
+
+        （電話：1234-5678）
+    </string>
+
+
+    <!-- Strings related to Ringing-->
+    <string name="exercise1">夠鐘鍛鍊啦～</string>
+    <string name="close">關閉提醒</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="exercise2">关闭提醒</string>
+
+
+    <!--voice recorder-->
+    <string name="record_fail">录音失败</string>
+    <string name="wait_for_record">等待录音</string>
+    <string name="on_record">正在录音</string>
+    <string name="recorded">录音结束</string>
+    <string name="time_too_short">时间太短，请重新录音</string>
+    <string name="play_over">播放完成</string>
+    <string name="play_error">抱歉，播放发生异常</string>
+    <string name="stop_by_up">松开停止录音</string>
+    <string name="speak_by_press">按住说话</string>
+    <string name="start_record">开始录音</string>
+    <string name="stop_record">停止录音</string>
+</resources>

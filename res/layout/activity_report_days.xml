@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView android:id="@+id/t1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/counted_time"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/day_txt"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150sp"
+            android:layout_width="80dp"
+            android:textColor="	#696969"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/days"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:mcv_selectionColor="@color/CornflowerBlue"
+        />
+
+</LinearLayout>
+
+

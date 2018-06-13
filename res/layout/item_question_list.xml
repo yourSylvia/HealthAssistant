@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:paddingStart="7dp"
+    android:paddingEnd="7dp"
+    android:background="#FFFFFF">
+
+    <ImageView android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon_ques_list"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/ques_title"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textSize="23sp"
+        android:textColor="#696969"/>
+
+</LinearLayout>

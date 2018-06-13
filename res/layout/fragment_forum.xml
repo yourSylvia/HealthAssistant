@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout android:id="@+id/my_answer_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/my_question"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView android:id="@+id/my_ques_id"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/my_ques"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/normal_answer_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/normal_question"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/norm_ques"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ask_ques_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/ask_question"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/ask_ques"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

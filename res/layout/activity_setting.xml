@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- Change psw -->
+    <LinearLayout android:id="@+id/change_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/icon_set_psw"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/change"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <!-- See help -->
+    <LinearLayout android:id="@+id/help_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/icon_help"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/help"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <!-- About us -->
+    <LinearLayout android:id="@+id/aboutus_btn"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp">
+
+        <ImageView android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:src="@drawable/icon_about_us"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"/>
+
+        <TextView android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:text="@string/aboutus"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/logout_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/submit_button"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:text="@string/logout"/>
+</LinearLayout>
